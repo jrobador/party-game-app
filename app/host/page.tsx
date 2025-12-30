@@ -44,9 +44,6 @@ export default function HostPage() {
 
     socketInstance.on("players-update", (updatedPlayers: Player[]) => {
       setPlayers(updatedPlayers)
-      if (gamePhase === "voting") {
-        setVoteCount((prev) => ({ ...prev, total: updatedPlayers.length }))
-      }
     })
 
     socketInstance.on("player-joined", (player: Player) => {
@@ -70,7 +67,7 @@ export default function HostPage() {
       socketInstance.off("vote-count-update")
       socketInstance.off("results-ready")
     }
-  }, [gamePhase])
+  }, [])
 
   const getRandomQuestion = (): string => {
     const availableIndices = questions.map((_, index) => index).filter((index) => !usedQuestions.has(index))
@@ -94,6 +91,7 @@ export default function HostPage() {
     const question = getRandomQuestion()
     setCurrentQuestion(question)
     setVoteCount({ current: 0, total: players.length })
+    setGamePhase("voting")
 
     if (socket) {
       socket.emit("start-game", question)
@@ -111,6 +109,7 @@ export default function HostPage() {
     setCurrentQuestion(question)
     setVoteCount({ current: 0, total: players.length })
     setResults([])
+    setGamePhase("voting")
 
     if (socket) {
       socket.emit("next-round", question)

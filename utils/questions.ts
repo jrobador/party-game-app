@@ -1,5 +1,5 @@
 export const questions = [
-  // PRIMERA PERSONA (el que lee es protagonista)
+  // --- PRIMERA PERSONA (El protagonista es el narrador) ---
   "Me acaban de asesinar. ¿Quién fue?",
   "Desperté en una bañera llena de hielo sin un riñón. ¿Quién me lo sacó?",
   "Alguien me vendió a una secta. ¿Quién fue?",
@@ -15,8 +15,30 @@ export const questions = [
   "Tengo un secreto que no le conté a nadie. ¿Quién ya lo sabe?",
   "Me emborraché y mandé un mensaje que no debía. ¿A quién de ustedes se lo mandé?",
   "Estoy a punto de saltar en paracaídas. ¿Quién me empuja antes de tiempo?",
+  "La policía encontró drogas en la guantera de mi auto. ¿Quién las puso ahí?",
+  "Me desperté con un tatuaje horrible en la cara. ¿Quién me convenció de hacérmelo?",
+  "Estoy colgando de un precipicio y necesito una mano. ¿Quién me pisa los dedos?",
+  "Me mordió un zombie. ¿Quién me pega un tiro en la cabeza sin dudarlo ni un segundo?",
+  "Me hackearon el celular y filtraron mis fotos desnudo/a. ¿Quién fue el primero en guardarlas?",
+  "Perdí todos mis ahorros en una estafa piramidal. ¿Quién de ustedes me metió?",
+  "Estoy en un interrogatorio policial. ¿Quién se quiebra a los 5 minutos y me delata?",
+  "Tengo que borrar mi historial de internet antes de morir. ¿A quién le doy la contraseña?",
+  "Organicé una fiesta sorpresa. ¿Quién es el idiota que se le escapa y me la arruina?",
+  "Me voy a vivir a otro país. ¿Quién se queda con mi casa y cambia la cerradura al día siguiente?",
+  "Tengo un ataque de pánico en un avión. ¿Quién me da un cachetazo 'para que me calme'?",
+  "Me postulo para Presidente. ¿Quién saca a la luz mis trapos sucios en la tele?",
+  "Estoy borracho y quiero llamar a mi ex. ¿Quién es el que me da el teléfono en vez de sacármelo?",
+  "Me caí en la calle y se me vieron hasta las ideas. ¿Quién se ríe antes de ayudarme?",
+  "Tengo que esconder un cadáver en el baúl. ¿A quién llamo para que maneje el auto?",
+  "Escribí un libro sobre mi vida. ¿Quién es el único que lo compra solo para criticarlo?",
+  "Tengo que desactivar una bomba cortando el cable rojo o azul. ¿A quién NO dejo que decida?",
+  "Estoy en un juicio por asesinato. ¿Quién es mi abogado que llega tarde y borracho?",
+  "Le presté mi computadora a alguien y me la devolvió llena de virus. ¿Quién fue?",
+  "Me hice vegano. ¿Quién me mete carne en la comida sin avisarme 'para joder'?",
+  "Estoy ciego temporalmente. ¿Quién me guía directo hacia una pared?",
+  "Me secuestraron. Los secuestradores piden rescate. ¿Quién dice 'quédenselo, no vale tanto'?",
 
-  // SITUACIONES HIPOTÉTICAS
+  // --- SITUACIONES HIPOTÉTICAS ---
   "Llega un apocalipsis zombie. ¿Quién muere primero?",
   "Somos todos estrellas de rock. ¿Quién muere de sobredosis primero?",
   "Estamos perdidos en la selva. ¿Quién se come al grupo?",
@@ -32,8 +54,13 @@ export const questions = [
   "Nos contratan de strippers. ¿Quién tendría más éxito?",
   "Fundamos una startup juntos. ¿Quién se roba la plata y desaparece?",
   "Nos toca hacer un trabajo en grupo. ¿Quién no hace nada?",
+  "Si nos secuestran a todos, ¿quién colabora con los secuestradores para salvarse?",
+  "¿Quién de nosotros viviría en una casa embrujada y no se mudaría nunca?",
+  "¿Quién de nosotros adoptaría un animal exótico ilegal como mascota?",
+  "¿Quién de nosotros se convertiría en influencer insoportable?",
+  "¿Quién haría paracaidismo sin pensarlo dos veces?",
 
-  // AFIRMACIONES DIRECTAS
+  // --- AFIRMACIONES DIRECTAS (Dedocracia) ---
   "A todos nos da miedo subirnos al auto cuando maneja...",
   "Si hay alguien que va a morir solo, es...",
   "Si hay alguien capaz de vender a su madre, es...",
@@ -49,11 +76,13 @@ export const questions = [
   "Todos sabemos quién ghostea a la gente...",
   "Si hay alguien que se tira pedos y culpa al perro, es...",
   "El que tiene el peor gusto en música es...",
+  "¿Quién de nosotros olvida el cumpleaños de su pareja?",
+  "¿Quién olvida pagar una cuenta importante y le cortan la luz?",
 
-  // SECRETOS REVELADOS
+  // --- SECRETOS Y TABÚES ---
   "Uno de nosotros tuvo piojos de grande. ¿Quién?",
   "Alguien acá besó a un primo. ¿Quién fue?",
-  "Uno de nosotros cree en la astrología de verdad. ¿Quién?",
+  "Uno de nosotros cree que la Tierra es plana. ¿Quién?",
   "Alguien de este grupo se hizo pis en la cama después de los 15. ¿Quién?",
   "Uno de nosotros robó algo de un supermercado. ¿Quién?",
   "Alguien acá googleó su propio nombre. ¿Quién?",
@@ -66,8 +95,17 @@ export const questions = [
   "Uno de nosotros se sacó una selfie llorando. ¿Quién?",
   "Alguien acá stalkeó al ex más de 6 meses. ¿Quién?",
   "Uno de nosotros habla solo en voz alta. ¿Quién?",
+  "¿A quién le daría menos culpa acostarse con la expareja de un amigo?",
+  "En el historial porno de quién encontraríamos cosas más raras?",
+  "Uno de nosotros tuvo gonorrea y sífilis. ¿Quién?",
+  "Un amigo necesita sangre, ¿quién dijo que fue a donar, pero nunca fue?",
+  "Uno de nosotros es una estrella porno conocido como 'Beso Negro 2'. ¿Quién es?",
+  "¿Quién de nosotros secretamente le desea la muerte a los demás?",
+  "Si fuéramos los apóstoles, ¿quién sería Judas?",
+  "¿Quién usa la ropa interior dos días seguidos?",
+  "¿Quién tiene hongos en los pies ahora mismo?",
 
-  // DINERO POR HUMILLACIÓN
+  // --- DINERO POR DIGNIDAD ---
   "¿Quién se tragaría vómito de perro por 5.000 dólares?",
   "¿Quién lamería el piso del subte por 10.000 dólares?",
   "¿Quién publicaría su historial de búsqueda por 50.000 dólares?",
@@ -78,8 +116,10 @@ export const questions = [
   "¿Quién llamaría a su madre y le gritaría por 2.000 dólares?",
   "¿Quién se metería a un contenedor de basura por 3.000 dólares?",
   "¿Quién comería comida de gato por una semana por 15.000 dólares?",
+  "Si encontrara una billetera con 500 dólares y DNI, ¿quién se queda la plata y tira el DNI?",
+  "¿Quién se casaría solo por la plata esperando a que el viejo/a se muera?",
 
-  // ROLES NEGATIVOS
+  // --- ROLES NEGATIVOS ---
   "¿A quién NO querría jamás como jefe?",
   "¿A quién NO le confiarían un secreto?",
   "¿Quién sería el peor padre/madre?",
@@ -90,8 +130,10 @@ export const questions = [
   "¿Quién sería el peor médico?",
   "¿Quién arruinaría una primera cita?",
   "¿A quién NO invitarías a un funeral?",
+  "Necesitamos a alguien para comandar a nuestras tropas. Por favor QUE NO SEA...",
+  "¿Quién de nosotros es secretamente un supervillano?",
 
-  // PREDICCIONES
+  // --- PREDICCIONES DE VIDA ---
   "¿Quién sigue soltero a los 50?",
   "¿Quién se casa tres veces?",
   "¿Quién termina viviendo con sus padres para siempre?",
@@ -102,8 +144,10 @@ export const questions = [
   "¿Quién termina siendo famoso?",
   "¿Quién se hace un lifting antes de los 40?",
   "¿Quién escribe un libro sobre su vida?",
+  "¿Quién se va a casar con alguien que todavía no nació?",
+  "¿Quién se tatuaría el nombre de su pareja al mes de conocerse?",
 
-  // POSITIVAS
+  // --- POSITIVAS (Para equilibrar un poco... o no) ---
   "¿A quién llamarías en la peor crisis de tu vida?",
   "¿Quién te prestaría plata sin preguntar?",
   "¿Quién te defendería en una pelea?",
@@ -113,5 +157,5 @@ export const questions = [
   "¿Con quién te irías de viaje sin pensarlo?",
   "¿Quién te diría la verdad aunque duela?",
   "¿A quién elegirías para tu equipo en el fin del mundo?",
-  "¿Quién es el más leal de todos los que están acá?",
+  "¿Quién es el más leal de todos los que están acá?"
 ];
